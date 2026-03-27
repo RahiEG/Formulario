@@ -1,0 +1,6 @@
+form{
+
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    transition: background-color 3s;
+}
