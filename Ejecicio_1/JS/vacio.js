@@ -5,10 +5,10 @@ const botonEnviar = document.getElementById("botonEnviar");
 formulario.addEventListener("submit", function(evento){
 evento.preventDefault();
 const nombre = document.getElementById("nombre").value;
-    if (nombre.trim===""){
+    if (nombre.trim()===""){
         alert("El nombre es obligatorio")
     formulario.style.background="#FFBFBF"
-    document.getElementById("nombre").value="";
+     document.getElementById("nombre").value="";
 
     }else{
         alert(`Usuario ${nombre} registrado correctamente`);
@@ -16,5 +16,4 @@ const nombre = document.getElementById("nombre").value;
      document.getElementById("nombre").value="";
     }
 
-    this.submit();
 });
